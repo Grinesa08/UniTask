@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Krijimi i formes per regjistrim te studentit-det.3.6</title>
+</head>
+<body>
+	<h1>Forma per regjistrim te studenteve</h1>
+	<p>Ju lutem plotesoni formularin ne vijim me te dhenat tuaja</p>
+	<form method="post">
+		<p><label>Emri:<input type="text" id="name" placeholder="Emri juaj"></label></p>
+		<p><label>Mbiemri:<input type="text" id="lname" placeholder="Mbiemri juaj"></label></p>
+		<p><label>Email:<input type="email" id="email" placeholder="email@domain.com"></label></p>
+		<details>
+			<summary>
+				Ju lutem,plotesoni pyetesorin shtese ne vijim:
+			</summary>
+			</details>
+			<p>Ne cilin vit te studimeve jeni?</p>
+			<label>Shkolla mesme<input type="radio" name="collegeyear" value="Shkolla mesme"></label>
+			<label>Viti i pare<input name="collegeyear" type="radio" value="Viti i pare"></label>
+			<label>Viti i dyte<input name="collegeyear" type="radio" value="Viti i dyte"></label>
+			<label>Viti i trete<input name="collegeyear" type="radio" value="Viti i trete"></label>
+		    <p>
+			<input type="submit" name="Dergo">
+			<input type="reset" name="Pastro">
+		</p>
+	</form>
+</body>
+</html>
